@@ -1,0 +1,19 @@
+.grid {
+
+    --grid-column-count: 12;
+    --grid-columns: [full-start] var(--grid-edge) [main-start] repeat(var(--grid-column-count), minmax(0, 1fr)) [main-end] var(--grid-edge) [full-end];
+    --grid-edge: 1.25rem;
+    --grid-max-width: var(--container-max-width);
+    --grid-gap: 2rem;
+
+    $b: &;
+
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: var(--grid-custom-columns, var(--grid-columns));
+    grid-template-rows: auto;
+
+    @include at(lg) {
+        --grid-edge: calc((100vw - var(--grid-max-width)) * 0.5);
+    }
+}

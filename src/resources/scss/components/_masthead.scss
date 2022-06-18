@@ -1,0 +1,21 @@
+.masthead {
+    $b: &;
+
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    &__logo {
+        grid-column: main;
+
+        @include at(lg) {
+            grid-column: main-start / span 4;
+        }
+    }
+
+    &__byline {
+        grid-column: main;
+        @include at(lg) {
+            grid-column: 7 / -1;
+        }
+    }
+}
