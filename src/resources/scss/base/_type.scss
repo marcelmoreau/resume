@@ -1,17 +1,8 @@
 a {
     color: $link;
+    transition: color 100ms cubic-bezier(.17,.67,.85,.61);
 
     &:hover {
         color: $link-hover;
     }
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-
-}
-
