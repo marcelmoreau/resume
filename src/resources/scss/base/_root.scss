@@ -10,5 +10,13 @@
     --color-pelorous: #{$color-pelorous};
     --color-sugar-cane: #{$color-sugar-cane};
 
+    --body-font-weight: #{$body-font-weight};
+    --body-line-height: #{$body-line-height};
+
     --container-max-width: #{$container-max-width};
+    --container-padding-x: #{$container-padding-x};
+
+    --grid-gutter: #{$grid-gutter};
+
+    --spacer: clamp(1.5rem, calc(1.29rem + 0.89vw), 2rem);
 }

@@ -4,7 +4,10 @@ $color-gray-800: #060606;
 $color-daisy: #DEFB3C;
 $color-maire-500: #0F0F0c;
 $color-pelorous: #2589BD;
-$color-sugar-cane: #E8EDD6;
+$color-sugar-cane: #e8edd6;
+
+$body-font-weight: 300;
+$body-line-height: 1.4;
 
 $link: $color-daisy;
 $link-hover: $color-pelorous;
@@ -12,7 +15,9 @@ $link-hover: $color-pelorous;
 $font-family-sans-serif: "Work Sans", sans-serif;
 $font-family-monospace: "Roboto Mono", monospace;
 
-$container-max-width: 1280px;
+$container-max-width: 1272px;
+$container-padding-x: 1.25rem;
+$grid-gutter: $container-padding-x * 2;
 
 $breakpoints: (
     sm: 576px,

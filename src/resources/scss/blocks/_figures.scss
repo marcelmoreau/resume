@@ -1,0 +1,41 @@
+.figures {
+    $b: &;
+
+    border: 1px dashed rgba(var(--border-color), 0.25);
+    margin-top: clamp(1.5rem, calc(1.29rem + 0.89vw), 2.625rem);
+    padding: 1.5rem;
+
+    &__grid {
+        @include at(sm) {
+            --grid-column-gap: 2.5rem;
+        }
+    }
+
+    &__item {
+        grid-column: main;
+
+        --grid-column-gap: 2.5rem;
+
+        @include at(sm) {
+            grid-column: auto / span 6;
+        }
+
+        @include at(lg) {
+            grid-column: auto / span 4;
+        }
+    }
+
+    &__heading {
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+
+    &__asset {
+        margin-bottom: 1.5rem;
+    }
+
+    &__image {
+        display: block;
+    }
+}

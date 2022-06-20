@@ -1,0 +1,33 @@
+.masthead {
+    $b: &;
+
+    padding-bottom: clamp(1.5rem, calc(1.29rem + 0.89vw), 2rem);
+    padding-top: clamp(1.5rem, calc(1.29rem + 0.89vw), 2rem);
+
+    &__grid {
+        --grid-row-gap: 0.5rem;
+
+        align-items: end;
+    }
+
+    &__logo {
+        font-family: var(--font-family-monospace);
+        font-size: clamp(1.25rem, calc(0.81rem + 1.33vw), 1.88rem);
+        font-weight: 500;
+        line-height: 1.275;
+        grid-column: main;
+
+        @include at(lg) {
+            grid-column: main-start / span 4;
+        }
+    }
+
+    &__byline {
+        font-size: clamp(1rem, calc(0.9rem + 0.44vw), 1.25rem);
+        grid-column: main;
+
+        @include at(lg) {
+            grid-column: 5 / -1;
+        }
+    }
+}
