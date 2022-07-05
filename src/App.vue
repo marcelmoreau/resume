@@ -167,9 +167,6 @@ import IconWrench from "./components/icons/IconWrench.vue";
                     <img src="/img/marcel.jpg" alt="">
                 </div>
                 <div class="footer__main">
-                    <h4 class="footer__heading">
-                        Find me
-                    </h4>
                     <div class="footer__links">
                         <a class="footer__link" href="https://codepen.io/marcelmoreau">Codepen</a>
                         <a class="footer__link" href="https://twitter.com/displaymarcel">Twitter</a>
