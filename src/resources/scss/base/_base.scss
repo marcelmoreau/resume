@@ -17,3 +17,9 @@ img {
 [v-cloak] {
     display: none;
 }
+
+:focus-visible {
+    border-radius: 0.25em;
+    outline: 0.125rem solid $link-hover;
+    outline-offset: 0.1em;
+}

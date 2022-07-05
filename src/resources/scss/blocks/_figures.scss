@@ -34,11 +34,6 @@
     &__asset {
         display: block;
         margin-bottom: 1.5rem;
-        transition: opacity 100ms cubic-bezier(.17,.67,.85,.61);
-
-        &:hover {
-            opacity: 0.625;
-        }
     }
 
     &__image {

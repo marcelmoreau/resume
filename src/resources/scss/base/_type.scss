@@ -1,8 +1,13 @@
 a {
     color: $link;
+    text-decoration: underline;
+    text-decoration-color: scale-color($link, $blackness: 64%);
+    text-decoration-thickness: 0.075em;
+    text-underline-offset: 0.225em;
     transition: color 100ms cubic-bezier(.17,.67,.85,.61);
 
     &:hover {
         color: $link-hover;
+        text-decoration-color: scale-color($link-hover, $blackness: 64%);
     }
 }
