@@ -128,7 +128,7 @@ import IconWrench from "./components/icons/IconWrench.vue";
                 <div class="grid section__grid">
                     <div class="section__rail">
                         <h2 class="section__heading">
-                            <SectionHeading label="Projects">
+                            <SectionHeading label="Misc. fun">
                                 <template #icon>
                                     <IconBase>
                                         <IconWrench />
