@@ -30,7 +30,7 @@ import IconWrench from "./components/icons/IconWrench.vue";
                         <div class="listing">
                             <ul class="listing__items">
                                 <li class="listing__item">
-                                    <h3 class="heading listing__heading" href="">Lead front-end engineer</h3>
+                                    <h3 class="heading listing__heading">Lead front-end engineer</h3>
                                     <div class="meta">
                                         <div class="meta__item">Imarc.com</div>
                                     </div>
@@ -41,9 +41,9 @@ import IconWrench from "./components/icons/IconWrench.vue";
                                     <div class="figures">
                                         <div class="grid figures__grid">
                                             <div class="figures__item">
-                                                <div class="figures__asset" href="https://securityscorecard.com">
+                                                <a class="figures__asset" href="https://securityscorecard.com">
                                                     <img class="figures__image" src="/img/experience-ssc.png" alt=""/>
-                                                </div>
+                                                </a>
                                                 <div class="heading figures__heading">
                                                     <a href="https://securityscorecard.com">Security Scorecard</a>
                                                 </div>
@@ -52,9 +52,9 @@ import IconWrench from "./components/icons/IconWrench.vue";
                                                 </div>
                                             </div>
                                             <div class="figures__item">
-                                                <div class="figures__asset" href="https://handbook.imarc.com">
+                                                <a class="figures__asset" href="https://handbook.imarc.com">
                                                     <img class="figures__image" src="/img/experience-handbook.png" alt="">
-                                                </div>
+                                                </a>
                                                 <div class="heading figures__heading">
                                                     <a href="https://handbook.imarc.com">Handbook</a>
                                                 </div>
@@ -63,9 +63,9 @@ import IconWrench from "./components/icons/IconWrench.vue";
                                                 </div>
                                             </div>
                                             <div class="figures__item">
-                                                <div class="figures__asset" href="https://baoinc.com">
+                                                <a class="figures__asset" href="https://baoinc.com">
                                                     <img class="figures__image" src="/img/experience-bao.png" alt=""/>
-                                                </div>
+                                                </a>
                                                 <div class="heading figures__heading">
                                                     <a href="https://baoinc.com">BAO</a>
                                                 </div>
@@ -122,7 +122,7 @@ import IconWrench from "./components/icons/IconWrench.vue";
             </div>
         </section>
 
-        <!-- Projects -->
+        <!-- Misc fun -->
         <section class="section">
             <div class="container">
                 <div class="grid section__grid">
@@ -140,6 +140,26 @@ import IconWrench from "./components/icons/IconWrench.vue";
                     <div class="section__main">
                         <div class="listing">
                             <ul class="listing__items">
+                                <li class="listing__item">
+                                    <div class="figures">
+                                        <div class="grid figures__grid">
+                                            <div class="figures__item figures__item--alt">
+                                                <a class="figures__asset" href="https://cocktail-detective.com">
+                                                    <img class="figures__image" src="/img/cocktail-detective.png" alt=""/>
+                                                </a>
+                                            </div>
+                                            <div class="figures__item figures__item--alt">
+                                                <div class="heading figures__heading">
+                                                    <a href="https://cocktail-detective.com">Cocktail Detective</a>
+                                                </div>
+                                                <div class="figures__copy">
+                                                    A fun little Vue 3 app, powered by <a href="https://www.thecocktaildb.com/">TheCocktailDB</a> to help people find what cocktails they can make with the ingredients they have on-hand.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
                                 <li class="listing__item">
                                     <a class="listing__heading" href="https://codepen.io/marcelmoreau/pen/OJONxeg">Scalable list icons</a>
                                     <div class="meta">

@@ -5,6 +5,10 @@
     margin-top: clamp(1.5rem, calc(1.29rem + 0.89vw), 2.625rem);
     padding: 1.5rem;
 
+    &:first-child {
+        margin-top: 0;
+    }
+
     &__grid {
         @include at(sm) {
             --grid-column-gap: 2.5rem;
@@ -23,6 +27,25 @@
         @include at(lg) {
             grid-column: auto / span 4;
         }
+    }
+
+    &__item--alt {
+        @include at(sm) {
+            grid-column: auto / span 6;
+        }
+
+        @include at(lg) {
+            grid-column: auto / span 8;
+        }
+    }
+
+    &__item--alt {
+        & + & {
+            @include at(lg) {
+                grid-column: auto / span 4;
+            }
+        }
+
     }
 
     &__heading {
