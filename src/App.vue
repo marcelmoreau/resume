@@ -52,11 +52,11 @@ import IconWrench from "./components/icons/IconWrench.vue";
                                                 </div>
                                             </div>
                                             <div class="figures__item">
-                                                <a class="figures__asset" href="https://handbook.imarc.com">
+                                                <a class="figures__asset" href="http://handbook.imarc.com">
                                                     <img class="figures__image" src="/img/experience-handbook.png" alt="">
                                                 </a>
                                                 <div class="heading figures__heading">
-                                                    <a href="https://handbook.imarc.com">Handbook</a>
+                                                    <a href="http://handbook.imarc.com">Handbook</a>
                                                 </div>
                                                 <div class="figures__copy">
                                                     CSS, Jekyll, GreenSock

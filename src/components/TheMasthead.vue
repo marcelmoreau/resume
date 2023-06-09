@@ -6,7 +6,7 @@
             <div class="grid masthead__grid">
                 <h1 class="masthead__logo">Marcel Moreau</h1>
                 <div class="masthead__byline">
-                    Front-end engineer / ux designer in Maine, USA
+                    Front-end / UX engineer in Maine, USA
                 </div>
             </div>
         </div>
