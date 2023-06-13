@@ -1,5 +1,6 @@
-a {
+a[href] {
     color: $link;
+    opacity: 1;
     text-decoration: underline;
     text-decoration-color: scale-color($link, $blackness: 64%);
     text-decoration-thickness: 0.075em;
@@ -10,4 +11,16 @@ a {
         color: $link-hover;
         text-decoration-color: scale-color($link-hover, $blackness: 64%);
     }
+}
+
+a {
+    opacity: 0.625;
+}
+
+p {
+    margin-bottom: 0.75em;
+}
+
+strong {
+    font-weight: 500;
 }
