@@ -40,8 +40,23 @@
         margin-bottom: 0.5em;
     }
 
+    &__feat {
+        border-bottom: 1px solid rgba(var(--border-color), 0.2);
+        margin-top: 1.25rem;
+    }
+
+    &__featItem {
+        border-top: 1px solid rgba(var(--border-color), 0.2);
+        padding: 0.5em;
+    }
+
     &:last-child {
         margin-bottom: 0;
     }
 
+    &__photos {
+        display: flex;
+        flex-direction: column;
+        row-gap: var(--spacer);
+    }
 }
